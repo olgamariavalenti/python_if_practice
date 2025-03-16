@@ -1,0 +1,14 @@
+# Collect user inputs
+name = input("What is your name? ")
+age = int(input("How old are you? "))  # Convert age to an integer
+
+# Conditional statement
+if age >= 18:
+    status = "an adult"
+elif age >= 13:
+    status = "a teenager"
+else:
+    status = "a child"
+
+# Print the result
+print(f"{name} is {status}.")
